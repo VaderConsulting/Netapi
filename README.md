@@ -1,6 +1,6 @@
 # Netapi
 
-VB6 working copy of `Netapi` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Project1. `VersionCompanyName`: Royal Australian Navy.
+Royal Australian Navy VB6 sample (project Project1, form `frmNetAPI`) that lists currently connected network resources. On form click it opens an MPR `WNetOpenEnum` for `RESOURCE_CONNECTED`, walks `WNetEnumResource` NETRESOURCE records, and prints each local drive letter alongside its remote UNC name.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,7 +10,7 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Project1` (`Netapi.vbp`) | VB6 | WinForms exe | Project1 |
+| `Project1` (`Netapi.vbp`) | VB6 | WinForms exe | Lists connected drive mappings via WNetEnumResource |
 
 ## How to open
 
@@ -28,4 +28,4 @@ Company names in project files: Royal Australian Navy.
 
 ## License
 
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+MIT (c) 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
